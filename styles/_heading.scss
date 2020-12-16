@@ -1,0 +1,44 @@
+.heading{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .text{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .wrapper{
+        position: relative;
+        
+        .offset{
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translateX(-45%) ;
+        }
+        .text{
+            white-space: nowrap;
+            color: $red;
+            transition-duration: 1s;
+        }
+    }
+
+}
+
+#text1{
+    color:  rgb(190, 172, 8);
+}
+
+#text2{
+    color: rgb(15, 113, 170);
+}
+
+#text3{
+    color: rgb(194, 29, 29);
+}
+
+#text4{
+    color: rgb(32, 126, 4);
+}
